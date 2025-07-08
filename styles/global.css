@@ -5,19 +5,35 @@
 }
 
 :root {
-    /* cores principais */
+    /* Cores principais */
     --red: #E3646E;
     --purple: #BB72E9;
     --blue: #3996DB;
     --green: #82BC4F;
     --yellow: #EABD5F;
 
-    /*Base txt */
+    /*Cor base dos textos */
     --gray-100: #E2E4E9;
     --gray-200: #C0C4CE;
     --gray-300: #878EA1;
     --gray-400: #292C34;
     --gray-500: #16181D;
     --gray-600: #0D0E11;
+
+    /* Fontes */
+
+    --font-asap: "Asap", sans-serif;
+    --title-lg: bold 56px/120% var(--font-asap);
+    --title-md: bold 24px/120% var(--font-asap);
+    --title-ms: bold 16px/120% var(--font-asap);
+
+    --font-inconsolata: "Inconsolata", monospace;
+    --subtitle: 20px/120% var(--font-inconsolata);
+
+
+    --font-maven: "Maven Pro", sans-serif;
+    --text-md: 16px/140% var(--font-maven);
+    --text-sm: 14px/140% var(--font-maven);
+
 
 }
