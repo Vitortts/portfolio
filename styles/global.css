@@ -35,5 +35,30 @@
     --text-md: 16px/140% var(--font-maven);
     --text-sm: 14px/140% var(--font-maven);
 
-
 }
+
+.text-align-center {
+  text-align: center;
+}
+
+h1 {
+    font: var(--title-lg);
+}
+
+h2 {
+    font: var(--title-md);
+}
+
+h3 {
+    font: var(--subtitle);
+    color: var(--gray-200);
+}
+
+.container {
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+

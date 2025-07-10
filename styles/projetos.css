@@ -1,0 +1,6 @@
+.projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #16181d;
+}
