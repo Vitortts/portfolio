@@ -73,11 +73,11 @@
   margin-right: 7px;
 }
 
-.icon {
+.icon-seta {
   cursor: pointer;
 }
 
-.icon:hover path {
+.icon-seta:hover path {
   fill: #3996DB ;
 }
 
