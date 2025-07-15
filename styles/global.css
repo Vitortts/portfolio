@@ -37,6 +37,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .text-align-center {
   text-align: center;
 }
