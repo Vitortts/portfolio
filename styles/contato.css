@@ -1,0 +1,26 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../assets/Background_Contacts.png);
+}
+
+.border-box-contatos {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: var(--gray-400);
+    cursor: pointer;
+}
+
+.texto-contatos {
+    margin-bottom: 50px;
+}
+
+.border-box-contatos:hover {
+    border: 1px solid var(--gray-300);
+}
