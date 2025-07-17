@@ -17,10 +17,19 @@
     cursor: pointer;
 }
 
+
 .texto-contatos {
     margin-bottom: 50px;
 }
 
-.border-box-contatos:hover {
-    border: 1px solid var(--gray-300);
+.texto-caixa {
+    color: var(--gray-200);
+}
+
+.border-box-contatos:hover .texto-caixa {
+    color: var(--blue);
+}
+
+.border-box-contatos:hover .cor-da-imagem path {
+  fill: var(--blue);
 }
