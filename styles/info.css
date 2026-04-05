@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-image:url(../assets/Background_Intro.png);
+    
 }
 
 .box-foto {
@@ -81,3 +82,60 @@
   fill: #3996DB ;
 }
 
+
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 32px !important; /* Ajusta de 56px para 32px */
+    line-height: 1.1; /* Melhora o espaçamento entre as linhas se ele quebrar */
+    word-wrap: break-word; /* Força a quebra de palavra se necessário */
+  }
+
+  .info-texto {
+    width: 100% !important;
+    padding: 0 10px; /* Dá uma margem de segurança nas bordas */
+    }
+  
+  .info.container {
+        /* Remove a altura de tela cheia (100vh) */
+    height: auto !important; 
+    min-height: auto !important;
+        
+        /* Adiciona um preenchimento para o conteúdo não colar */
+    padding-top: 60px;
+    padding-bottom: 40px; 
+        
+        /* Garante que o fundo cubra apenas a área do texto */
+    background-size: cover;
+  }
+
+  .box-infos {
+    width: 100%; /* Ocupa a largura total disponível */
+    padding: 0 20px; /* Margem interna para o texto não colar nas bordas */
+    height: auto !important; /* Deixa o conteúdo definir a altura */
+  }
+
+  .info-texto {
+    width: 100%; /* Texto ocupa a largura do container */
+  }
+
+  .logos-linguaguem {
+    flex-wrap: wrap; /* Permite que os ícones pulem de linha */
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre as badges */
+    margin-top: 40px;
+  }
+
+  .borda-logo {
+    margin-right: 0; /* Remove margem fixa para usar o gap */
+  }
+    
+  .info a:has(.icon-seta) {
+    display: none;
+  }
+
+  .box-foto {
+    margin-left: 50px;
+  }
+}

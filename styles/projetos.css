@@ -44,3 +44,31 @@
     border: 1px solid var(--gray-300);
 }
 
+@media (max-width:768px) {
+
+    .projetos {
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+    .texto-projetos {
+        text-align: center;
+        width: 100%;
+        padding: 0 20px
+    }
+
+    .fotos-projetos {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .caixa-projetos {
+        margin: 0 0 24px 0;
+    }
+
+}
+
+

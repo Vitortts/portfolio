@@ -33,3 +33,31 @@
 .border-box-contatos:hover .cor-da-imagem path {
   fill: var(--blue);
 }
+
+@media (max-width: 480px) {
+    .border-box-contatos {
+        width: 90vw; /* Largura baseada na tela do celular */
+        justify-content: space-between; /* Distribui ícone, texto e seta */
+        padding: 0 15px;
+    }
+
+    .border-box-contatos img[alt="Seta"] {
+        margin-left: 0 !important; /* Remove o valor fixo de 240px/250px */
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .texto-contatos {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+    margin-bottom: 100px;
+    }
+
+    .caixa-contatos {
+        margin-bottom: 300px;
+    }
+}

@@ -37,8 +37,10 @@
 
 }
 
-html {
+html, body {
     scroll-behavior: smooth;
+    overflow-x: hidden; /* Proíbe a rolagem horizontal lateral */
+    width: 100%;
 }
 
 .text-align-center {

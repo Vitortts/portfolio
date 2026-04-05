@@ -27,3 +27,21 @@
     border-radius: 5%;
 }
 
+@media (max-width: 768px) {
+    .servicos {
+        height: auto; /* Altura automática para caber todos os itens empilhados */
+        padding: 40px 0;
+    }
+
+    .caixa-servicos {
+        flex-direction: column; /* Empilha os serviços */
+        padding-left: 0 !important;
+    }
+
+    .box-border-servicos {
+        margin-left: 0; 
+        margin-bottom: 16px;
+        width: 90%; /* Ajusta largura para telas menores */
+    }
+    
+}
